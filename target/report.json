@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-21T11:44:02.061Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3157113500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate the todo filed",
+        "description": "",
+        "id": "to-validate-the-to-do-items-filed-in-application;to-validate-the-todo-filed",
+        "after": [
+          {
+            "result": {
+              "duration": 849984200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13613700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in homepage of application",
+            "match": {
+              "location": "TODOSteps.the_user_should_be_in_homepage_of_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 498177000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user has to enter to do list in a text box and press enter",
+            "match": {
+              "location": "TODOSteps.the_user_has_to_enter_to_do_list_in_a_text_box_and_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169903200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the the item is added in list",
+            "match": {
+              "location": "TODOSteps.verify_the_the_item_is_added_in_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207053900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user complete the todo work click a completed",
+            "match": {
+              "location": "TODOSteps.the_user_complete_the_todo_work_click_a_completed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114084100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To verify the item marked as completed or strikeout",
+            "match": {
+              "location": "TODOSteps.to_verify_the_item_marked_as_completed_or_strikeout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283524100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user completes the work will delete that work from the list of items",
+            "match": {
+              "location": "TODOSteps.the_user_completes_the_work_will_delete_that_work_from_the_list_of_items()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 481600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To verify the item was deleted in list of items",
+            "match": {
+              "location": "TODOSteps.to_verify_the_item_was_deleted_in_list_of_items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215311200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user click the filetring option active it will show only active items",
+            "match": {
+              "location": "TODOSteps.the_user_click_the_filetring_option_active_it_will_show_only_active_items()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190061400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user click the completed fipleter it will show only completed items",
+            "match": {
+              "location": "TODOSteps.the_user_click_the_completed_fipleter_it_will_show_only_completed_items()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the to do items filed in application",
+    "description": "",
+    "id": "to-validate-the-to-do-items-filed-in-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/todo.feature",
+    "tags": []
+  }
+]
